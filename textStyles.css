@@ -1,9 +1,62 @@
-
 .companyName {
-    margin: 0;
-    padding: 40px 0;
-    text-align: center;
-    font-size: 30px;
-    color: #000000;
-    background-color: #FFD700;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  background-color: #ffd700;
+}
+.subject {
+  text-align: left;
+  color: #000000;
+  font-size: 15;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+#noteText {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  padding-bottom: 15px;
+  color: #666;
+  background-color: #ffffff;
+}
+#descriptionText {
+  text-align: left;
+  color: #000000;
+  font-size: 14;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+#dateText {
+  text-align: center;
+  font-size: 14;
+  margin: 0;
+  padding-top: 15px;
+  color: #000000;
+  background-color: #ffffff;
+}
+#contactText {
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #fffaf0;
+}
+hr {
+  border: 1px solid #2a2828;
+  margin: 10px 0;
+  background-color: #ffffff;
+}
+#contactUs {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-size: 25px;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #ffffff;
 }

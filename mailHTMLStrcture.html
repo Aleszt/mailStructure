@@ -1,225 +1,70 @@
 <!DOCTYPE html>
-                            <html lang='en'>
-                            <head>
-                                <meta charset='UTF-8'>
-                                <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-                                <title>SIFO Punto de Venta</title>
-                                <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
-                                <link rel='stylesheet' href='textStyles.css'>
-                                <link rel='stylesheet' href='containers.css'>
-                                <style>
-                                    body {
-                                        display: flex;
-                                        justify-content: space-around;
-                                        flex-wrap: wrap;
-                                        font-family: Arial, sans-serif;
-                                        margin: 01;
-                                        padding: 01;
-                                        background-color: #f4f4f4;
-                                    }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIFO Punto de Venta</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="textStyles.css" />
+    <link rel="stylesheet" href="containers.css" />
+  </head>
 
-                                    .container {
-                                        width: 60%;
-                                        height: auto;
-                                        margin: 01px auto;
-                                        padding: 20px;
-                                        background-color: #fffaf0;
-                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                    }
-
-                                    .container2 {
-                                        text-align: center;
-                                        padding: 10px;
-                                        background-color: #ffffff;
-                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                    }
-
-                                    .container3 {
-                                        margin: 01px auto;
-                                        padding: 01px;
-                                        background-color: #fffaf0;
-                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                    }
-
-                                    .container4 {
-                                        margin: 01px auto;
-                                        margin-top: 30px;
-                                        padding: 01px;
-                                        background-color: #ffffff;
-                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                    }
-
-                                    .contact {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        margin: 20px auto;
-                                        padding: 10px;
-                                        background-color: #ffffff;
-                                    }
-
-                                    .contact2 {
-                                        width: 100%;
-                                        max-width: 300px;
-                                        margin: 05px;
-                                        padding: 05px;
-                                        background-color: #fffaf0;
-                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                        text-align: center;
-                                        box-sizing: border-box;
-                                    }
-
-                                    @media only screen and (max-width: 768px) {
-
-                                            body {
-                                        max-width: 100%;
-                                    }
-                                        .contact2 {
-                                        max-width: 100%;
-                                    }
-                                        .contact {
-                                        max-width: 100%;
-                                    }
-                                    .contact2 {
-                                        max-width: 100%;
-                                    }
-                                    .container {
-                                        max-width: 100%;
-                                    }
-                                    .container2 {
-                                        max-width: 100%;
-                                    }
-                                    .container3 {
-                                        max-width: 100%;
-                                    }
-                                    .container4 {
-                                        max-width: 100%;
-                                    }
-                                    }
-                                    
-
-                                    h2 {
-                                        text-align: left;
-                                        color: #000000;
-                                        font-size: 15;
-                                        margin: 0;
-                                        padding: 20px 0;
-                                        background-color: #ffffff;
-                                    }
-
-                                    h3 {
-                                        text-align: left;
-                                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                                        font-size: 12;
-                                        margin: 0;
-                                        padding: 20px 0;
-                                        background-color: #ffffff;
-                                    }
-
-                                    hr {
-                                        border: 1px solid #2a2828;
-                                        margin: 10px 0;
-                                        background-color: #ffffff;
-                                    }
-
-                                    p {
-                                        font-size: 1em;
-                                        color: #666;
-                                        background-color: #ffffff;
-                                    }
-
-                                    span.highlight {
-                                        color: black;
-                                        font-weight: bold;
-                                        background-color: #ffffff;
-                                    }
-
-                                    #p2 {
-                                        text-align: left;
-                                        color: #000000;
-                                        font-size: 14;
-                                        margin: 0;
-                                        padding: 20px 0;
-                                        background-color: #ffffff;
-                                    }
-
-                                    #p3 {
-                                        text-align: center;
-                                        font-weight: bold;
-                                        color: #000000;
-                                        font-size: 25px;
-                                        margin: 0;
-                                        padding: 20px 0;
-                                        background-color: #ffffff;
-                                    }
-
-                                    #p4 {
-                                        text-align: center;
-                                        color: #000000;
-                                        font-size: 15px;
-                                        margin: 0;
-                                        padding: 20px 0;
-                                        background-color: #fffaf0;
-                                    }
-
-                                    #p5 {
-                                        text-align: center;
-                                        color: #000000;
-                                        font-size: 15px;
-                                        margin: 0;
-                                        padding: 20px 0;
-                                        background-color: #ffffff;
-                                    }
-
-                                    img {
-                                        max-width: 100%;
-                                        height: auto;
-                                    }
-
-                                    .imagen-centrada {
-                                        padding: 60px 0;
-                                        margin-left: auto;
-                                        margin-right: auto;
-                                        display: block;
-                                    }
-                                </style>
-                            </head>
-                            <body>
-                                <div class='container'>
-                                    <div>
-                                        <h1 class="companyName">SIFO Punto de Venta</h1>
-                                    </div>
-                                    <div class='container2'>
-                                        <h2> {user}:</h2>
-                                        <p id='p2'><i class='fa-solid fa-circle-info' style='color: #ffd700;'></i> Se detectó una
-                                            <b>modificación</b> en el <b>precio</b> de los siguientes productos:
-                                        </p>
-                                        <div class='container3'>
-                                            <hr><br>{producto} <br><br>
-                                            <hr>
-                                        </div>
-                                        <p>
-                                            <b>NOTA:</b> El precio de los productos fue modificado por el usuario <b>{user}</b> desde {origen}.<br><span
-                                                class='highlight'>Fecha de Modificación: {datetime}</span>
-                                        </p>
-                                    </div>
-                                    <div class='container4'>
-                                        <p id='p3'>Contáctanos</p>
-                                        <div class='contact'>
-                                            <div class='contact2'>
-                                                <p id='p4'>+52 (317) 873 1388 <br><br> <a
-                                                        href='https://api.whatsapp.com/send/?phone=523178731388&text&type=phone_number&app_absent=0'
-                                                        target='_blank'><i class='fa-brands fa-whatsapp fa-lg' style='color: #000000;'></i></a>
-                                                    whatsapp</p>
-                                            </div>
-                                            <div class='contact2'>
-                                                <p id='p4'>puntodeventasifo@gmail.com <br><br> <i class='fa-regular fa-envelope fa-lg'
-                                                        style='color: #000000;'></i> Correo electrónico</p>
-                                            </div>
-                                        </div>
-                                        <img src='https://puntodeventa.com.mx/imagenes/sifo-pudve.jpg' class='imagen-centrada' alt='Logo'
-                                            width='300' height='95'>
-                                    </div>
-                                </div>
-                            </body>
-                            </html>
+  <body>
+    <div class="mainContainer">
+      <h1 class="companyName">SIFO Punto de Venta</h1>
+      <div class="bodyContainer">
+        <h2 class="subject">{user}:</h2>
+        <p id="descriptionText">
+          <i class="fa-solid fa-circle-info" style="color: #ffd700"></i>
+          {mailDescription}
+        </p>
+        <div class="listInfo">
+          <hr />
+          <br />{mailData} <br /><br />
+          <hr />
+        </div>
+        <p id="dateText">{datetime}</p>
+        <p id="noteText">{mailNote}</p>
+      </div>
+      <div class="footContainer">
+        <p id="contactUs">Contáctanos</p>
+        <div class="contactContainer">
+          <div class="contactInfo">
+            <p>
+              +52 (317) 873 1388 <br /><br />
+              <a
+                href="https://api.whatsapp.com/send/?phone=523178731388&text&type=phone_number&app_absent=0"
+                target="_blank"
+                ><i
+                  class="fa-brands fa-whatsapp fa-lg"
+                  style="color: #000000"
+                ></i
+              ></a>
+              Whatsapp
+            </p>
+          </div>
+          <div class="contactInfo">
+            <p>
+              puntodeventasifo@gmail.com <br /><br />
+              <i
+                class="fa-regular fa-envelope fa-lg"
+                style="color: #000000"
+              ></i>
+              Correo electrónico
+            </p>
+          </div>
+        </div>
+        <img
+          src="https://puntodeventa.com.mx/imagenes/sifo-pudve.jpg"
+          class="imagen-centrada"
+          alt="Logo"
+          width="300"
+          height="95"
+        />
+      </div>
+    </div>
+  </body>
+</html>

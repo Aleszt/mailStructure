@@ -1,0 +1,105 @@
+body {
+  word-wrap: break-word;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+  margin: 01;
+  padding: 01;
+  background-color: #f4f4f4;
+}
+.mainContainer {
+  width: 60%;
+  height: auto;
+  margin: 01px auto;
+  padding: 20px;
+  background-color: #fffaf0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.bodyContainer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.listInfo {
+  margin: 01px auto;
+  padding: 01px;
+  background-color: #fffaf0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footContainer {
+  margin: 01px auto;
+  margin-top: 30px;
+  padding: 01px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contactInfo {
+  color: #000000;
+  font-size: 15px;
+  margin: 0;
+  background-color: #fffaf0;
+  width: 100%;
+  max-width: 300px;
+  margin: 05px;
+  padding: 05px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.imagen-centrada {
+  padding: 60px 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+
+  .contact2 {
+    max-width: 100%;
+  }
+
+  .contact {
+    max-width: 100%;
+  }
+
+  .contact2 {
+    max-width: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .container2 {
+    max-width: 100%;
+  }
+
+  .container3 {
+    max-width: 100%;
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+}
